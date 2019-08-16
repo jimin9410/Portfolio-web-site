@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+/* reset css */
+*{margin:0; padding:0;}
+ol,ul{list-style:none;}
+body{width:100%; height:auto; background:#fff; overflow-x:hidden;}
+a{outline:0; text-decoration:none; color:rgb(51,51,51);}
+img{border:0;}
+
+/* hide_member css */
+.hide_member{width:100%;height:120px;background:rgb(47,28,17);display:block;display:none; position:relative;}
+.hide_eve{position:absolute;left: 50%;margin-left: -615px;width: 1230px;}
+.yellow{color:rgb(255,175,36);font-weight: normal;font-family: 'Noto Sans KR', sans-serif;}
+.hide_txt{color:#fff;font-size: 20px;padding-top: 46px;line-height: 28px;float:left;}
+.btn_box{float: right;padding-top:44px;font-size: 14px;}
+.btn_box .btn1{color:rgb(47,28,17);background:#fff;}
+.btn2{margin-left: 20px;border: 1px solid rgb(255,255,255);color:#fff;}
+.btn_box a{width:170px;height: 35px;line-height:33px;float:left;text-align: center;
+font-family: 'Noto Sans KR', sans-serif;}
+
+/* highest_menu CSS */
+.highest_menu{width:100%;height:40px;background:rgb(238,238,238);}
+.inner_menu{width:1260px; margin: 0 auto;}
+.inner_menu ul{float: right;}
+.inner_menu ul li{float:left;}
+.inner_menu ul li a{display:block;margin-right:20px;font-family: 'Noto Sans KR', sans-serif;line-height: 40px;font-size: 14px;}
+.inner_menu ul li.bean a{display: block;width: 60px;height: 40px;
+text-indent: -9999px;background: rgb(47,28,17) url(../imgs/beanicon.png) no-repeat 50% 50%;}
+.logo {width: 70px;height: 100px;float: left;text-indent: -9999px;
+background: url(../imgs/logo.png) no-repeat 0 center;}
+
+
+
+/* searchbox css */
+.search_box{z-index:999;display:none;position: absolute;width: 1260px; top:140px; height: 80px;background:rgb(238,238,238);margin-left: -630px;left:50%;}
+.search_box .search_txt{width: 1160px; height: 30px;margin: 0 auto;line-height: 30px;font-family: 'Noto Sans KR';font-size: 16px;color: rgb(70,57,50);text-align: center;
+background: rgb(238,238,238);margin: 25px 22px 0;outline: none;border:none;}
+#search_box_lense{width:20px; height:80px;}
+.under_lense{position: absolute;;outline: none;border:none;cursor:pointer;top: 28px;right: 30px;width: 20px;height: 30px;display: block;padding: 0;text-indent: -9999px;background: url(../imgs/search.png) no-repeat center center;}
+
+
+/* udner_menu css */
+.depth2_list li{width:200px;}
+.under_menu{width: 1200px;height: 100px;margin: 0 auto;}
+.under_menu ul li{float:left;padding: 0 31px 0 32px;}
+.under_menu ul li .main_menu{line-height:100px;font-family:'Noto Sans KR', sans-serif;font-size: 14px;font-weight: bold;display: block;}
+.under_menu ul li a{line-height:20px;font-family:'Noto Sans KR', sans-serif;font-size: 14px;font-weight: bold;display: block;}
+.gnb{float: left; margin-left: 99px;}
+#btnSearch{float: right;width: 20px;height: 100px;line-height: 100px;}
+#btnSearch i{font-size: 18px; font-weight:lighter;color: rgb(207,102,26);}
+
+.gnb {float: left;margin-left: 99px;}
+.gnb li .depth2 {width: 1200px;padding: 40px 40px 35px;position: absolute;z-index: 99999;background: rgb(238,238,238);}
+
+
+.gnb .store .depth2{width:150px; padding: 0; padding-bottom: 35px;
+padding-top:40px;color: rgb(75,38,22);}
+.buy .depth2 {width: 1200px;padding: 40px 30px;margin-left:-630px;left: 50%;}
+.gnb .menu .depth2 {width: 730px;margin-left: -120px;}
+.gnb .members_club .depth2 {width: 520px;}
+.gnb .depth2 > div.first {float: left;padding-left: 10px;width: 200px;font-size: 15px;
+font-family: 'Noto Sans KR';color: rgb(75,38,22);}
+.gnb .depth2 > div.first a {display: block;margin-top: 10px;color: rgb(75,38,22);}
+.coffeebean .depth2 > ul {width: 180px;float: left;overflow: hidden;}
+.gnb .depth2_list.w160 {width:160px;}
+.gnb .depth2_list.w240 {width:240px;}
+.gnb .coffeebean .depth2 {width: 980px;margin-left:-590px;}
+.gnb .depth2_list {width:200px;float:left;}
+.gnb .depth2_list ul li a {display: block;font-family:'Noto Sans KR';font-size: 13px;color: rgb(96,79,72);
+line-height: 26px;font-weight:normal;}
+.coffeebean .depth2 > ul li:first-child {margin-top: 0;}
+.gnb .depth2 > ul > li > a {display: block;font-family: 'Arial' ,'NanumBarunGothic';font-size: 15px;color: rgb(75,38,22)}
+
+#req{width: 160px;}
+#problem{width:140px;}
+#problem li{width:160px; padding:0;}
+
+.gnb .customer .depth2 {width: 120px;padding: 40px 40px 35px;margin-left: -42px;position: absolute;z-index: 99999;background: rgb(238,238,238);display: none;}
+.gnb .customer li{padding:0;}
+.gnb .customer li a{font-weight:normal;}
+.gnb .store li a{font-weight:normal;font-size:15px;}
+
+.customer .depth2 > ul > li:first-child {margin-top: 0;}
+.promotion .depth2 > ul > li, .store .depth2 > ul > li, .customer .depth2 > ul > li {margin-top: 10px;width:170px;}
+
+.gnb .depth2_list h2 {margin-bottom: 6px;font-family: 'Noto Sans KR';font-size: 15px;color: rgb(0,0,0) !important;font-weight: normal;}
+.store .depth2{width:120px;}
+.gnb .depth2_list ul li{padding-left: 12px;background:url(../imgs/bar1.gif) no-repeat 0 11px;}
+.buy .depth2 {width: 1200px !important;  padding: 40px 30px !important;margin-left: -630px !important;left: 50%;}
+.gnb .depth2 > div.first a:first-child{margin-top: 0;}
+
+.customer .depth2 ul{width:80px;}
+.store li{width:200px;}
+
+/* slide CSS */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {max-width: 1000px;position: relative;margin: auto;}
+
+/* Hide the images by default */
+.mySlides {display: none;}
+
+/* Next & previous buttons */
+.prev, .next {cursor: pointer;position: absolute;top:40%;width: auto;margin-top:-10px;padding:50px;color:white;font-weight: bold;font-size:28px;transition: 0.6s ease;border-radius: 0 3px 3px 0;user-select: none;}
+
+/* Position the "next button" to the right */
+.next {right: 0;border-radius: 3px 0 0 3px;}
+.fade {-webkit-animation-name: fade;-webkit-animation-duration: 1.5s;animation-name: fade;
+animation-duration: 1.5s;}
+
+@-webkit-keyframes fade {from {opacity: .4}to {opacity: 1}}
+@keyframes fade {from {opacity: .4}to {opacity: 1}}
+
+
+
+/* free_gift css */
+.fg_im{width: 671px;position: relative;left: 0px;top: 0px;z-index: 999;opacity: 1;}
+.t_hidden{display:none;}
+
+/* MD'S PICK slider css */
+.auto_img{width:300px;}
+.main_wrap {width: 1200px;margin: 55px auto 0;}
+.main_title {margin-bottom: 35px;font-family:'Roboto Slab';font-size: 24px;font-weight: 500;color: rgb(207,102,26);text-align: center;}
+.txt_box {text-align: center;}
+.txt_box .name {display: block;max-height: 44px;overflow: hidden;margin-bottom: 5px;font-family:'Noto Sans KR';font-weight: 700;font-size: 16px;color: rgb(51,51,51);}
+.txt_box .num {display: block;margin-bottom: 5px;font-family:'Noto Sans KR';font-size: 13px;color: rgb(51,51,51);}
+.txt_box .price {display: block;font-family:'Noto Sans KR';font-size: 11px;color: rgb(207,102,26);}
+.slick-prev{display:none;}
+
+/* what's new slider css */
+.second_slide .main_title{margin-top:50px;}
+.event_name{display: block;margin-top: 15px;margin-bottom: 15px;font-family:'Roboto Slab';font-size: 17px;color: rgb(207,102,26);line-height: 18px;text-align: center;}
+.second_slide{margin-bottom: 100px;    margin-top: 100px;}
+
+/* instagram section css */
+#instagram{padding: 55px 0 40px;text-align: center;background: rgb(124,81,161);}
+#instagram h2{margin: 0 0 25px;font-size: 24px;font-family:'Noto Sans KR';
+font-weight: 400;color: rgb(255,255,255);}
+#instagram ul{overflow: hidden;width: 1200px;margin: 0 auto 30px;}
+#instagram ul li{float:left;}
+.insta_btn{display: inline-block;width: 400px;height: 40px;font-size: 14px;font-family: 'Roboto Slab';line-height: 40px;text-align: center;letter-spacing: 1px;color: rgb(255,255,255);background: rgb(243,130,0);}
+
+
+/* 오버레이 확대&opacity 효과 */
+.hovereffect img {width:200px;height: 200px;display: block;position: relative;max-width: none;-webkit-transition: opacity 0.35s, -webkit-transform 0.35stransition: opacity 0.35s, transform 0.35s;}
+.hovereffect:hover img {opacity: 0.7;transform:scale(1.15);transition:all 0.5s ease;}
+.hovereffect {width: 100%;height: 100%;float: left;overflow: hidden;position: relative;text-align: center;cursor: default;background:rgb(124,81,161);}
+.hovereffect .overlay {width: 100%;height: 100%;position: absolute;overflow: hidden;top: 0;left: 0;padding: 50px 20px;}
+.insta_btn:hover, .insta_btn:hover:focus {color:white;text-decoration: none;}
+
+/*footer css*/
+#footer {width: 100%;background: rgb(226,226,226);}
+.inner_footer {width: 1200px;margin: 0 auto;padding: 0 0 20px;}
+.sitemap {overflow: hidden;padding: 55px 0 50px 0;margin-bottom: 30px;border-bottom: 1px solid rgb(75,38,22);}
+.sitemap > div {overflow: hidden;}
+.sitemap > div > div{width: 170px;float: left;}
+.sitemap h2 {margin-bottom: 20px;font-family: 'Roboto Slab';font-size: 16px; font-weight:500;color: rgb(207,102,26);}
+.sitemap ul li:first-child {margin-top: 0;}
+.sitemap ul li{font-family:'Noto Sans KR';}
+.sitemap ul li a {font-family: 'Noto Sans KR';font-size: 13px;color: rgb(75,38,22);}
+.sitemap a:hover, a:focus {color:rgb(75,38,22);text-decoration:none;}
+.link{text-align:left;margin-bottom: 15px;line-height: 25px;font-family: 'Noto Sans KR';color:rgb(207,102,26);font-size:13px;}
+.link a{color:rgb(95,77,63);}
+.sns_box{ width: 20%; height: 50px; float: right;}
+.txt_txt{ width: 70%;  float: left;margin-bottom:20px;}
+.circle > a{ display: block; width: 50px; height: 50px; float: left;}
+.circle{float:right;}
+.facebook{background: url(../imgs/ico_facebook.png)no-repeat 0 0;}
+.instagram{background:url(../imgs/ico_instagram.png) no-repeat 0 0;}
+.blog{background:url(../imgs/ico_blog.png) no-repeat 0 0;}
+.twitter{background:url(../imgs/ico_twitter.png) no-repeat 0 0;}
+.address {font-family:'Noto Sans KR';font-size: 13px;color: rgb(95,77,63);line-height: 24px;}
+
+
+/* top button css */
+a.top {position: fixed;right:4%;bottom: 50px;display: none;}
+#backTop2 a span {width: 50px;height: 50px;display: block;text-indent: -9999px;background: url(../imgs/btn_top.png) no-repeat 0 0;}
+#backTop2{margin: 0;}

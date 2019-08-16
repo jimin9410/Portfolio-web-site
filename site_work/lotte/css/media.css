@@ -1,0 +1,181 @@
+@media screen and (max-width:649px){
+
+
+
+#csv_page{background: url(../img/bg_section2.jpg) no-repeat 50% 0;}
+#business_page{background: url(../img/bg_part03.gif) no-repeat 50% 0;}
+#about_lotte_core_page{background: url(../img/bg_core.jpg) no-repeat 50% 0;}
+
+
+
+video{display:none;}
+
+
+/* header css */
+#header h1 a {padding-top: 0;}
+#header img {width: 40px;}
+#header .btn_all {top:0; left:0;}
+#gnb img{width:30px;}
+.log{right: 5%;top: 0px;}
+.log ul{font-size: 14px;}
+.log ul li {margin-right: 15px;}
+
+
+.navi{opacity: 0;}
+.man_btn{margin-top:20px;}
+.scroll{left:44%;bottom:10%;}
+.scroll_last{left:44%;bottom:5%;}
+
+
+#mainpage_lotte .life img{width:45%;}
+#mainpage_lotte .contents {width:auto;top: 50%;}
+#mainpage_lotte .tit_section{font-size: 40px;margin-top: 20px;}
+#mainpage_lotte .txt_section{font-size:19px;margin-top: 20px;margin: auto;width:80%;}
+#mainpage_lotte .category_ul{width:80%;margin:5% auto;}
+#mainpage_lotte .category_ul li{text-align:center;}
+#mainpage_lotte .category_ul li a img{width:50%;}
+#mainpage_lotte .category_name{font-size: 16px;}
+
+
+#csv_page .life img{width:45%;}
+#csv_page .contents {width:auto;    margin-top: 0;
+    padding-top:50%;}
+#csv_page .tit_section{font-size: 40px;margin-top: 3%;}
+#csv_page .txt_section{font-size:19px;padding-top: 2%;width:100%;margin: auto;}
+#csv_page .category_ul{width:100%;margin-top: 8%;margin-left: 13%;}
+#csv_page .category_ul li{text-align:center;margin: 0 10px 0 0px;}
+
+#csv_page .category_ul .female a img{width: 60%;}
+#csv_page .category_ul .tree a img{width: 70%;}
+#csv_page .category_ul .campaign a img{width:80%;}
+#csv_page .category_ul .epigyny a img{width:80%;}
+#csv_page .category_ul .global a img{width:80%;}
+
+#csv_page .category_name{font-size: 14px;}
+
+
+
+
+
+#business_page .life img{width:45%;}
+#business_page .contents {width:auto; margin-top:40%;}
+#business_page .tit_section{font-size: 40px;}
+#business_page .txt_section{font-size:19px;padding-top:2%;width:80%;margin: auto;}
+#business_page .category_ul{width:90%;margin-top:5%;margin-bottom: 3%;
+margin-left:12%;}
+#business_page .category_ul li{text-align:center;}
+#business_page .category_ul li a img{width:40px;}
+#business_page .category_name{font-size: 16px;}
+#business_page .category_ul .tour{margin-right: 0;}
+
+
+
+.circle-nav{width:100%;}
+
+.life img{width:45%;}
+.tap_mission{width:100%;margin-left: 0;}
+.about_contents{width:100%;}
+.tap_mission a {width:100px;height: 100px;border-radius:100px;}
+.tap_mission{padding-top: 10px;}
+#red_btn a{width:130px;height: 130px;border-radius:130px;}
+#left_btn {margin-top:3%;}
+#right_btn {margin-top:3%;}
+
+.will{font-size: 16px;}
+
+#about_lotte_core_page .about_contents {width:100%;}
+#about_lotte_core_page .tit_section{font-size:50px; margin-top: 2%;}
+#about_lotte_core_page .txt_section{font-size: 19px;padding-top: 2%;width:100%;margin: auto;}
+#about_lotte_core_page .category_ul{width:80%;margin-top:20px;margin-left:80px;}
+#about_lotte_core_page .category_ul li{text-align:center;margin: 0 10px 0 0px;}
+#about_lotte_core_page .category_ul li a img{width:40px;}
+#about_lotte_core_page .category_name{font-size: 16px;}
+#about_lotte_core_page .category_ul .food{margin-right: 50px;}
+#about_lotte_core_page .category_ul .chemi{margin-left: 30px;}
+#about_lotte_core_page .category_ul .tour{margin-left: 30px;}
+#about_lotte_core_page .will{width: 75%;margin: auto; margin-top:20px;}
+
+
+
+
+
+#about_lotte_vision_page .about_contents {width:100%;}
+#about_lotte_vision_page .tit_section{font-size:50px; margin-top: 2%;}
+#about_lotte_vision_page .txt_section{font-size:19px;padding-top:2%;width:100%;margin: auto;}
+#about_lotte_vision_page .category_ul{width:80%;margin-top:20px;margin-left:80px;}
+#about_lotte_vision_page .category_ul li{text-align:center;margin: 0 10px 0 0px;}
+#about_lotte_vision_page .category_ul li a img{width:40px;}
+#about_lotte_vision_page .category_name{font-size: 16px;}
+#about_lotte_vision_page .category_ul .food{margin-right: 50px;}
+#about_lotte_vision_page .category_ul .chemi{margin-left: 30px;}
+#about_lotte_vision_page .category_ul .tour{margin-left: 30px;}
+#about_lotte_vision_page .will{width: 75%;margin: auto; margin-top:20px;}
+#about_lotte_vision_page .more_btn{margin-top:2%;}
+
+
+
+
+#about_lotte_mission_page .about_contents {width:100%;}
+#about_lotte_mission_page .txt_section{font-size: 19px;}
+#about_lotte_mission_page .tit_section{font-size:50px;padding-top:2%;width:100%;margin: auto;}
+#about_lotte_mission_page .category_ul{width:80%;margin-top:20px;margin-left:80px;}
+#about_lotte_mission_page .category_ul li{text-align:center;margin: 0 10px 0 0px;}
+#about_lotte_mission_page .category_ul li a img{width:40px;}
+#about_lotte_mission_page .category_name{font-size: 16px;}
+#about_lotte_mission_page .category_ul .food{margin-right: 50px;}
+#about_lotte_mission_page .category_ul .chemi{margin-left: 30px;}
+#about_lotte_mission_page .category_ul .tour{margin-left: 30px;}
+#about_lotte_mission_page .will{width: 75%;margin: auto; margin-top: 20px;}
+
+
+.three_box{display: none;}
+.mobile_three_box{display:block;}
+
+#pr{background: none;}
+#ir{display: none;}
+#careers{display: none;}
+
+#more_info {
+    height: 615px;}
+
+
+
+    #footer{margin-top: 28px;}
+    #footer .footer_contents{width:500px;}
+    #family_site{left: 10%; z-index: 999;
+    position: absolute;
+    }
+    #family_site #search{top:40%;right:3%;height:30px;}
+    .btn_srchPubDt {left:312%;
+      top:100%;
+    z-index: 999;
+    height: 30px;
+    position: absolute;}
+
+    #footer .footer_sns{padding:0;float:left;padding-top: 33px;padding-left:5%;}
+    .footer_logo {left:30px;top: 40px;width: 45px;}
+    .footer_sns{width:100px;}
+    .footer_sns ul{width: 200px;}
+    .footer_menu {padding-top:20px;}
+    .copyright{padding:30px 0 0 90px;border-top: 0;}
+
+.inner_wrap{margin-top: 20px;padding-bottom: 50px;}
+.inner{padding: 0 1% 0 1%;}
+.inner ul{margin-top:35px;left:0px;}
+.inner li a {font-size: 15px;}
+
+.title_gnb {width:150px;}
+.title_gnb a {font-size: 18px;margin-left: 24px;}
+.gnb{width: 100%;}
+.gnb_close{right:2%;top:3%}
+.gnb_close #close_btn{width:20px;}
+
+.inner_wrap .first_ul{margin-top: 50px;border-bottom: none;}
+.inner_wrap .second_ul{margin-top:100px;}
+
+#title_ir{margin-top: 10px;}
+
+
+
+
+}
